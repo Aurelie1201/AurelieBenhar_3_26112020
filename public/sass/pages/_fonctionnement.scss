@@ -1,0 +1,46 @@
+.Fonctionnement{
+    margin-left: 20px;
+    margin-top: 50px;
+    & h1{
+        margin-bottom: 30px;
+    }
+    & ol{
+        counter-reset: chiffre;     /*initialisation du compeur*/
+        padding-left: 0px;
+    }
+    & li{
+        list-style-type: none;
+        counter-increment: chiffre;     /*incrémentation du compteur*/
+        margin: 0px 30px 25px 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 25px;
+        display: flex;
+        background-color: $color-fond;
+        box-shadow: 0px 0px 10px 5px #ededed;
+        &:before{
+            content: counter(chiffre);      /*affichage du compteur*/
+            background-color: $color-primary;
+            border-radius: 50px;
+            color: white;
+            padding: 4px 8px 4px 8px;
+            font-size: small;
+            position: relative;
+            right: 10px;
+        }
+        & i{
+            padding-top: 2px;
+            font-size: 1.2rem;
+            margin-left: 20px;
+            color: #7e7e7e;
+        }
+        & .liste--couleur{
+            color: $color-primary;
+        }
+        & div{
+            padding-top: 5px;
+            font-weight: bold;
+            padding-left: 30px;
+        }
+    }
+}
