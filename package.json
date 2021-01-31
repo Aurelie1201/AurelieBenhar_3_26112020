@@ -1,0 +1,19 @@
+{
+  "name": "aureliebenhar_3_26112020",
+  "version": "1.0.0",
+  "description": "P3 Oh my food",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./public/sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aurelie1201/AurelieBenhar_3_26112020.git"
+  },
+  "author": "Aurelie Benhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aurelie1201/AurelieBenhar_3_26112020/issues"
+  },
+  "homepage": "https://github.com/Aurelie1201/AurelieBenhar_3_26112020#readme"
+}

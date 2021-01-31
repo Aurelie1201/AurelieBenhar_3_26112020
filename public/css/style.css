@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "roboto";
+  src: url("public/sass/base/Roboto/Roboto-Black.ttf"), url("public/sass/base/Roboto/Roboto-Bold.ttf"), url("public/sass/base/Roboto/Roboto-Light.ttf"), url("public/sass/base/Roboto/Roboto-Medium.ttf"), url("public/sass/base/Roboto/Roboto-Regular.ttf");
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
