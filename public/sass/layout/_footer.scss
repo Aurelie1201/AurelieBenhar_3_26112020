@@ -1,0 +1,25 @@
+footer{
+    background-color: #353535;
+    padding-bottom: 40px;
+    & img{
+        color: white;
+        width: 30%;
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    & ul{
+        list-style: none;
+        padding-left: 25px;
+    }
+    & li{
+        padding-bottom: 10px;
+    }
+    & a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        & div{
+            padding-left: 10px;
+        }
+    }
+}

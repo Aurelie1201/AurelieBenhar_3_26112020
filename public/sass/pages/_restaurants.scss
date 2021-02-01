@@ -1,0 +1,50 @@
+.restaurant{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: $color-fond;
+    & h1{
+        margin-left: 20px;
+    }
+    & a{
+        text-decoration: none;
+        & figure{
+            width: 90%;
+            height: 250px;
+            margin: 16px 0px 16px 15px;
+            border-radius: 15px;
+            background-color: white;
+            overflow: hidden;
+            & img{
+                width: 100%;
+                height: 175px;
+                object-fit: cover;
+                object-position: bottom;
+            }
+            & .restaurant__image--position{
+                object-position: 0px -150px;
+            }
+            & figcaption{
+                height: 45px;
+                padding: 10px 30px 20px 20px;
+                color: black;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: space-between;
+                & .restaurant__nom{
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                }
+                & .restaurant__lieu{
+                    padding-top: 5px;
+                    font-weight: 300;
+                }
+                & i{
+                    font-size: x-large;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}

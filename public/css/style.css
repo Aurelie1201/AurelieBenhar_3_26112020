@@ -17,6 +17,32 @@ header img {
   width: 45%;
 }
 
+footer {
+  background-color: #353535;
+  padding-bottom: 40px;
+}
+footer img {
+  color: white;
+  width: 30%;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+footer ul {
+  list-style: none;
+  padding-left: 25px;
+}
+footer li {
+  padding-bottom: 10px;
+}
+footer a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+footer a div {
+  padding-left: 10px;
+}
+
 .description {
   width: 100%;
   display: flex;
@@ -104,6 +130,7 @@ header img {
   font-size: 1.2rem;
   margin-left: 20px;
   color: #7e7e7e;
+  width: 23px;
 }
 .Fonctionnement li .liste--couleur {
   color: #9356DC;
@@ -112,6 +139,57 @@ header img {
   padding-top: 5px;
   font-weight: bold;
   padding-left: 30px;
+}
+
+.restaurant {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #f6f6f6;
+}
+.restaurant h1 {
+  margin-left: 20px;
+}
+.restaurant a {
+  text-decoration: none;
+}
+.restaurant a figure {
+  width: 90%;
+  height: 250px;
+  margin: 16px 0px 16px 15px;
+  border-radius: 15px;
+  background-color: white;
+  overflow: hidden;
+}
+.restaurant a figure img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.restaurant a figure .restaurant__image--position {
+  object-position: 0px -150px;
+}
+.restaurant a figure figcaption {
+  height: 45px;
+  padding: 10px 30px 20px 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.restaurant a figure figcaption .restaurant__nom {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.restaurant a figure figcaption .restaurant__lieu {
+  padding-top: 5px;
+  font-weight: 300;
+}
+.restaurant a figure figcaption i {
+  font-size: x-large;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
