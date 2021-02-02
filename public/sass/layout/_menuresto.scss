@@ -1,0 +1,58 @@
+.menu{
+    background-color: $color-fond;
+    position: relative;
+    bottom: 50px;
+    border-radius: 35px 35px 0px 0px;
+    padding-right: 15px;
+    padding-left: 20px;
+    & div{
+        display: flex;
+        justify-content: space-between;
+        & h1{
+            margin-left: 5px;
+        }
+        & i{
+            font-size:x-large;
+            margin-top: 25px;
+            margin-right: 20px;
+        }
+    }
+    & h2{
+        width: 40px;
+        font-weight: 300;
+        font-size: medium;
+        border-bottom: solid 3px $color-tertiary;
+        padding-bottom: 5px;
+    }
+    & ul{
+        padding: 0px;
+        list-style: none;
+        & li{
+            background-color: white;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 70px;   
+        }
+    }
+    &__nom{
+        padding-left: 10px;
+        padding-top: 15px;
+        font-size: 1.1em;
+        font-weight: 500;
+        width: 70%;
+    }
+    &__description{
+        padding-top: 5px;
+        padding-left: 10px;
+        font-weight: 300;
+        font-size: 0.9em;
+        width: 80%;
+    }
+    &__prix{
+        height: 100%;
+        padding-top: 40px;
+    }
+}
