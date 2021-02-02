@@ -4,7 +4,7 @@
   "description": "P3 Oh my food",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./public/sass/main.scss:./public/css/style.css ./public/sass/a_la_francaise.scss:./public/css/a_la_francaise.css"
+    "sass": "sass --watch ./public/sass/main.scss:./public/css/style.css ./public/sass/page_resto.scss:./public/css/page_resto.css"
   },
   "repository": {
     "type": "git",

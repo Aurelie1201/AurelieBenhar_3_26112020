@@ -117,14 +117,14 @@ header img {
   padding-top: 15px;
   font-size: 1.1em;
   font-weight: 500;
-  width: 75%;
+  width: 80%;
 }
 .menu__description {
   padding-top: 5px;
   padding-left: 10px;
   font-weight: 300;
-  font-size: 0.9em;
-  width: 80%;
+  font-size: 15px;
+  width: 82%;
 }
 .menu__prix {
   height: 100%;
@@ -146,4 +146,4 @@ header img {
   margin-bottom: 5px;
 }
 
-/*# sourceMappingURL=a_la_francaise.css.map */
+/*# sourceMappingURL=page_resto.css.map */
