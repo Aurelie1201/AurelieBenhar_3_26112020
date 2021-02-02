@@ -15,7 +15,7 @@ body {
 
 footer {
   background-color: #353535;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 footer h2 {
   font-family: "shrikhand", sans-serif;
@@ -74,6 +74,8 @@ header img {
   border-radius: 35px 35px 0px 0px;
   padding-right: 15px;
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .menu div {
   display: flex;
@@ -93,6 +95,7 @@ header img {
   font-size: medium;
   border-bottom: solid 3px #99E2D0;
   padding-bottom: 5px;
+  margin-bottom: 0px;
 }
 .menu ul {
   padding: 0px;
@@ -106,6 +109,7 @@ header img {
   flex-direction: column;
   flex-wrap: wrap;
   height: 70px;
+  box-shadow: 0px 0px 10px 5px #ededed;
 }
 .menu__nom {
   padding-left: 10px;
@@ -124,6 +128,21 @@ header img {
 .menu__prix {
   height: 100%;
   padding-top: 40px;
+  color: #5a5a5a;
+  font-weight: bold;
+}
+.menu__bouton {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  width: 50%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=a_la_francaise.css.map */

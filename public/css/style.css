@@ -25,7 +25,7 @@ header img {
 
 footer {
   background-color: #353535;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 footer h2 {
   font-family: "shrikhand", sans-serif;
@@ -94,8 +94,8 @@ footer a div {
   width: 50%;
   text-align: center;
   border-radius: 50px;
-  margin: 25px 40px 50px 40px;
   padding: 15px;
+  margin: 25px 40px 50px 40px;
 }
 
 .Fonctionnement {
