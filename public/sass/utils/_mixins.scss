@@ -1,0 +1,8 @@
+@mixin bouton {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to bottom right, $color-secondary, $color-primary);
+    width: 50%;
+    text-align: center;
+    border-radius: 50px; 
+}
