@@ -138,15 +138,18 @@ header img {
 .menu__bouton {
   text-decoration: none;
   color: white;
-  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   width: 50%;
   text-align: center;
   border-radius: 50px;
   padding: 15px;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 5px;
+}
+.menu__bouton:hover {
+  background: linear-gradient(to bottom right, #fface8, #ae80e5);
 }
 
 /*# sourceMappingURL=page_resto.css.map */
