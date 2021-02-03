@@ -35,31 +35,34 @@
             border-radius: 15px;
             margin-bottom: 15px;
             display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            height: 70px;
+            justify-content: space-between;
+            align-items:flex-end;
             box-shadow: 0px 0px 10px 5px #ededed;
+            & .menu__intitule{
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                padding: 10px 0px 10px 10px;
+                &--nom{
+                    font-size: 1.1em;
+                    font-weight: 500;
+                    width: 100%;
+                }
+                &--description{
+                    font-weight: 300;
+                    font-size: 15px;
+                    width: 100%;
+                    margin-top: 5px;
+                }
+            }
+            & .menu__prix{
+                height: 100%;
+                margin-right: 20px;
+                margin-bottom: 10px;
+                color: #5a5a5a;
+                font-weight: bold;
+            }
         }
-    }
-    &__nom{
-        padding-left: 10px;
-        padding-top: 15px;
-        font-size: 1.1em;
-        font-weight: 500;
-        width: 80%;
-    }
-    &__description{
-        padding-top: 5px;
-        padding-left: 10px;
-        font-weight: 300;
-        font-size: 15px;
-        width: 82%;
-    }
-    &__prix{
-        height: 100%;
-        padding-top: 40px;
-        color: #5a5a5a;
-        font-weight: bold;
     }
     &__bouton{
         @include bouton;

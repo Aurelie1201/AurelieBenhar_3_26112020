@@ -11,13 +11,15 @@ body {
 
 body {
   margin: 0 auto;
+  background-color: #f6f6f6;
 }
 
 header {
   width: 100%;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: white;
 }
 header img {
   width: 45%;
@@ -99,8 +101,10 @@ footer a div {
 }
 
 .Fonctionnement {
-  margin-left: 20px;
-  margin-top: 50px;
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  background-color: white;
 }
 .Fonctionnement h1 {
   margin-bottom: 30px;
