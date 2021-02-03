@@ -64,11 +64,20 @@ footer a div {
   justify-content: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #4b4b4b;
-  font-weight: 500;
 }
 .description__lieu i {
   margin-right: 15px;
+  color: #4b4b4b;
+}
+.description__lieu input {
+  background-color: #eaeaea;
+  border: none;
+}
+.description__lieu input::placeholder {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: black;
 }
 .description__explain {
   background-color: #f6f6f6;
