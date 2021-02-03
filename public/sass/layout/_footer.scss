@@ -20,6 +20,15 @@ footer{
         display: flex;
         text-decoration: none;
         color: white;
+        & .fa-utensils{
+            font-size: 0.8em;
+            padding-top: 4px;
+        }
+        & .fa-hands-helping{
+            font-size: 0.7em;
+            padding-top: 4px;
+            width: 10px;
+        }
         & div{
             padding-left: 10px;
         }

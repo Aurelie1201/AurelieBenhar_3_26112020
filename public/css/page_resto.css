@@ -37,6 +37,15 @@ footer a {
   text-decoration: none;
   color: white;
 }
+footer a .fa-utensils {
+  font-size: 0.8em;
+  padding-top: 4px;
+}
+footer a .fa-hands-helping {
+  font-size: 0.7em;
+  padding-top: 4px;
+  width: 10px;
+}
 footer a div {
   padding-left: 10px;
 }
