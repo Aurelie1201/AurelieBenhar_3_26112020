@@ -87,23 +87,23 @@ header img {
   display: flex;
   flex-direction: column;
 }
-.menu div {
+.menu > div {
   display: flex;
   justify-content: space-between;
 }
-.menu div h1 {
+.menu > div h1 {
   margin-left: 5px;
 }
-.menu div a {
+.menu > div a {
   color: black;
   margin-top: 25px;
   margin-right: 20px;
   height: 24px;
 }
-.menu div i {
+.menu > div i {
   font-size: x-large;
 }
-.menu div i:hover {
+.menu > div i:hover {
   color: #9356DC;
   font-weight: 600;
 }
@@ -127,11 +127,12 @@ header img {
   justify-content: space-between;
   align-items: flex-end;
   box-shadow: 0px 0px 10px 5px #ededed;
+  overflow: hidden;
 }
 .menu ul li .menu__intitule {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  flex-basis: 80%;
   padding: 10px 0px 10px 10px;
 }
 .menu ul li .menu__intitule--nom {
@@ -146,11 +147,32 @@ header img {
   margin-top: 5px;
 }
 .menu ul li .menu__prix {
-  height: 100%;
   margin-right: 20px;
   margin-bottom: 10px;
   color: #5a5a5a;
   font-weight: bold;
+  transform: translateX(65px);
+}
+.menu ul li:hover .menu__prix {
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+}
+.menu ul li:hover .menu__coche {
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+}
+.menu__coche {
+  background-color: #99E2D0;
+  color: #99E2D0;
+  padding: 5%;
+  align-self: center;
+  transform: translateX(65px);
+}
+.menu__coche i {
+  background-color: #99E2D0;
+  color: white;
+  align-items: center;
+  font-size: x-large;
 }
 .menu__bouton {
   text-decoration: none;
