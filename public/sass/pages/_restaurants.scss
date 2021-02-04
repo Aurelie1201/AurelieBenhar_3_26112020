@@ -6,7 +6,7 @@
     & h1{
         margin-left: 20px;
     }
-    & a{
+    & .restaurant__lien{
         text-decoration: none;
         & figure{
             width: 90%;
@@ -42,12 +42,8 @@
                     font-weight: 300;
                 }
                 & i{
-                    font-size: x-large;
                     padding-top: 10px;
-                    &:hover{
-                        font-weight: 600;
-                        background: linear-gradient(to bottom right, $color-secondary, $color-primary);
-                    }
+                    @include coeur;
                 }
             }
         }

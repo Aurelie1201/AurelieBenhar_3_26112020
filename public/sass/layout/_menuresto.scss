@@ -13,10 +13,14 @@
         & h1{
             margin-left: 5px;
         }
-        & i{
-            font-size:x-large;
+        & a{
+            color: black;
             margin-top: 25px;
             margin-right: 20px;
+            height: 24px;
+        }
+        & i{
+            @include coeur;
         }
     }
     & h2{
