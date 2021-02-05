@@ -124,55 +124,63 @@ header img {
   border-radius: 15px;
   margin-bottom: 15px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  width: 340px;
+  align-items: stretch;
   box-shadow: 0px 0px 10px 5px #ededed;
   overflow: hidden;
 }
 .menu ul li .menu__intitule {
   display: flex;
   flex-direction: column;
-  flex-basis: 80%;
-  padding: 10px 0px 10px 10px;
+  flex-shrink: 0;
+  width: 275px;
+  padding: 10px 10px 10px 10px;
 }
 .menu ul li .menu__intitule--nom {
   font-size: 1.1em;
   font-weight: 500;
   width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .menu ul li .menu__intitule--description {
   font-weight: 300;
   font-size: 15px;
   width: 100%;
   margin-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .menu ul li .menu__prix {
   margin-right: 20px;
-  margin-bottom: 10px;
+  padding-top: 35px;
+  width: 30px;
   color: #5a5a5a;
   font-weight: bold;
-  transform: translateX(65px);
 }
-.menu ul li:hover .menu__prix {
-  transform: translateX(0);
-  transition: transform 300ms ease-in-out;
+.menu ul li:hover .menu__intitule {
+  width: 220px;
 }
 .menu ul li:hover .menu__coche {
   transform: translateX(0);
-  transition: transform 300ms ease-in-out;
 }
 .menu__coche {
   background-color: #99E2D0;
   color: #99E2D0;
-  padding: 5%;
-  align-self: center;
-  transform: translateX(65px);
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(60px);
+  transition: transform 400ms ease-in-out;
 }
 .menu__coche i {
   background-color: #99E2D0;
   color: white;
   align-items: center;
-  font-size: x-large;
+  font-size: large;
 }
 .menu__bouton {
   text-decoration: none;
