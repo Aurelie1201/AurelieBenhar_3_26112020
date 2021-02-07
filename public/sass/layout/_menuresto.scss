@@ -49,6 +49,7 @@
                 flex-shrink: 0;
                 width: 275px;
                 padding: 10px 10px 10px 10px;
+                transition: 400ms ease-in-out;
                 &--nom{
                     font-size: 1.1em;
                     font-weight: 500;

@@ -135,6 +135,7 @@ header img {
   flex-shrink: 0;
   width: 275px;
   padding: 10px 10px 10px 10px;
+  transition: 400ms ease-in-out;
 }
 .menu ul li .menu__intitule--nom {
   font-size: 1.1em;
