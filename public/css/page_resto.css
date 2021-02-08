@@ -1,3 +1,11 @@
+@keyframes app-progress {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -167,6 +175,9 @@ header img {
 .menu ul li:hover .menu__coche {
   transform: translateX(0);
 }
+.menu ul li:hover .menu__coche i {
+  transform: rotate(0deg);
+}
 .menu__coche {
   background-color: #99E2D0;
   color: #99E2D0;
@@ -182,6 +193,8 @@ header img {
   color: white;
   align-items: center;
   font-size: large;
+  transform: rotate(-360deg);
+  transition: transform 600ms ease-in-out;
 }
 .menu__bouton {
   text-decoration: none;
@@ -215,6 +228,18 @@ header img {
   opacity: 0;
   z-index: -1;
   transition: opacity 300ms;
+}
+.menu .app-1 {
+  transform-origin: 50% 0%;
+  animation: app-progress 1000ms;
+}
+.menu .app-2 {
+  transform-origin: 50% 0%;
+  animation: app-progress 1000ms 400ms backwards;
+}
+.menu .app-3 {
+  transform-origin: 50% 0%;
+  animation: app-progress 1000ms 800ms backwards;
 }
 
 /*# sourceMappingURL=page_resto.css.map */

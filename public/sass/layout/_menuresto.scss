@@ -81,6 +81,9 @@
                 }
                 & .menu__coche{
                     transform: translateX(0);
+                    & i{
+                        transform: rotate(0deg);
+                    }
                 }
             }
         }
@@ -99,6 +102,8 @@
             color: white;
             align-items: center;
             font-size: large;
+            transform: rotate(-360deg);
+            transition: transform 600ms ease-in-out;
         }
     }
     &__bouton{
@@ -107,5 +112,17 @@
         margin-right: auto;
         margin-top: 20px;
         margin-bottom: 5px;
+    }
+    & .app-1{
+        transform-origin: 50% 0%;
+        animation: app-progress 1000ms;
+    }
+    & .app-2{
+        transform-origin: 50% 0%;
+        animation: app-progress 1000ms 400ms backwards;
+    }
+    & .app-3{
+        transform-origin: 50% 0%;
+        animation: app-progress 1000ms 800ms backwards;
     }
 }
