@@ -242,7 +242,7 @@ footer a div {
   padding-top: 10px;
   font-size: x-large;
 }
-.restaurant .restaurant__lien figure figcaption i:hover {
+.restaurant .restaurant__lien figure figcaption i:active {
   color: #9356DC;
   font-weight: 600;
 }

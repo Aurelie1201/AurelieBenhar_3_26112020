@@ -103,7 +103,7 @@ header img {
 .menu > div i {
   font-size: x-large;
 }
-.menu > div i:hover {
+.menu > div i:active {
   color: #9356DC;
   font-weight: 600;
 }
