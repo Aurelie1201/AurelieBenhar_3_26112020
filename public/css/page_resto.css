@@ -112,7 +112,9 @@ header img {
   font-size: x-large;
 }
 .menu > div i:active {
-  color: #9356DC;
+  background: -webkit-linear-gradient(#9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 .menu h2 {
