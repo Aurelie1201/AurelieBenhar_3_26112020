@@ -136,6 +136,14 @@ header img {
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
+@media screen and (min-width: 980px) {
+  .menu > div i:hover {
+    background: -webkit-linear-gradient(#9356DC, #FF79DA);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+}
 .menu h2 {
   width: 40px;
   font-weight: 300;

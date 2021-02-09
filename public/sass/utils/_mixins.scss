@@ -45,4 +45,12 @@
             -webkit-text-fill-color: transparent;
             font-weight: 600;
         }
+        &:hover{
+            @media screen and (min-width: 980px){
+                background: -webkit-linear-gradient($color-primary, $color-secondary);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: 600;
+            }
+        }
 }
