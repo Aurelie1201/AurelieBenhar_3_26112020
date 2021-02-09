@@ -27,3 +27,15 @@
         transform: rotate(720deg);
     }
 }
+
+@keyframes couleur-coeur{
+    0%{
+
+    }
+    100%{
+        background: -webkit-linear-gradient($color-primary, $color-secondary);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    }
+}

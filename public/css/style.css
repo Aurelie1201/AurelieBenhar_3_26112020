@@ -26,6 +26,14 @@
     transform: rotate(720deg);
   }
 }
+@keyframes couleur-coeur {
+  100% {
+    background: -webkit-linear-gradient(#9356DC, #FF79DA);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -332,19 +340,20 @@ footer a div {
 .restaurant .restaurant__lien figure figcaption i {
   padding-top: 10px;
   font-size: x-large;
+  transition: 1s;
 }
 .restaurant .restaurant__lien figure figcaption i:active {
+  font-weight: 520;
   background: -webkit-linear-gradient(#9356DC, #FF79DA);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 600;
 }
 @media screen and (min-width: 980px) {
   .restaurant .restaurant__lien figure figcaption i:hover {
+    font-weight: 520;
     background: -webkit-linear-gradient(#9356DC, #FF79DA);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 600;
   }
 }
 .restaurant__nouveau {
