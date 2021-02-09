@@ -30,10 +30,18 @@
         border-bottom: solid 3px $color-tertiary;
         padding-bottom: 5px;
         margin-bottom: 0px;
+        @media screen and (min-width: 980px){
+            margin-left: 50px;
+        }
     }
     & ul{
         padding: 0px;
         list-style: none;
+        @media screen and (min-width: 760px){
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
         & li{
             background-color: white;
             border-radius: 15px;

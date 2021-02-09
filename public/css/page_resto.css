@@ -51,6 +51,7 @@ body {
 footer {
   background-color: #353535;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 footer h2 {
   font-family: "shrikhand", sans-serif;
@@ -161,9 +162,21 @@ header img {
   padding-bottom: 5px;
   margin-bottom: 0px;
 }
+@media screen and (min-width: 980px) {
+  .menu h2 {
+    margin-left: 50px;
+  }
+}
 .menu ul {
   padding: 0px;
   list-style: none;
+}
+@media screen and (min-width: 760px) {
+  .menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 .menu ul li {
   background-color: white;

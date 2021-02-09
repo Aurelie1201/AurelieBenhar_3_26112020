@@ -63,6 +63,7 @@ header img {
 footer {
   background-color: #353535;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 footer h2 {
   font-family: "shrikhand", sans-serif;
@@ -101,23 +102,29 @@ footer a div {
   position: absolute;
   padding-top: 30%;
   width: 100%;
-  height: 2170px;
+  height: 2180px;
   z-index: -1;
   background-color: white;
   text-align: center;
   font-size: xx-large;
   color: #9356DC;
-  animation: load 3s;
+  overscroll-behavior: none;
+  animation: load 2s;
 }
 @media screen and (min-width: 980px) {
   .spinner {
-    height: 1270px;
+    height: 1400px;
     font-size: 50px;
     padding-top: 20%;
   }
 }
+@media screen and (min-width: 415px) and (max-width: 979px) {
+  .spinner {
+    height: 2090px;
+  }
+}
 .spinner > i {
-  animation: anim 3s ease-in-out;
+  animation: anim 2s ease-in-out;
 }
 
 .description {
@@ -210,7 +217,7 @@ footer a div {
 .Fonctionnement h1 {
   margin-bottom: 30px;
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 760px) {
   .Fonctionnement h1 {
     text-align: center;
     margin-bottom: 50px;
@@ -242,6 +249,13 @@ footer a div {
 @media screen and (min-width: 980px) {
   .Fonctionnement li {
     width: 30%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979px) {
+  .Fonctionnement li {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .Fonctionnement li:before {
@@ -287,9 +301,10 @@ footer a div {
 .restaurant h1 {
   margin-left: 20px;
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 760px) {
   .restaurant h1 {
     text-align: center;
+    margin-left: 0px;
     margin-bottom: 50px;
     width: 100%;
   }
