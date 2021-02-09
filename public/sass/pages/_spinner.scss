@@ -1,0 +1,17 @@
+.spinner{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 30%;
+    width: 100%;
+    height: 2300px;
+    z-index: -1;
+    background-color: white;
+    text-align: center;
+    font-size: xx-large;
+    color: $color-primary;
+    //animation: load 3s;
+    & > i{
+        //animation: anim 3s ease-in-out;
+    }
+}

@@ -5,10 +5,18 @@
     background-color: white;
     & h1{
         margin-bottom: 30px;
+        @media screen and (min-width: 980px){
+            text-align: center;
+            margin-bottom: 50px;
+        }
     }
     & ol{
         counter-reset: chiffre;     /*initialisation du compeur*/
         padding-left: 0px;
+        @media screen and (min-width: 980px){
+            display: flex;
+            justify-content: space-around;
+        }
     }
     & li{
         list-style-type: none;
@@ -20,6 +28,9 @@
         display: flex;
         background-color: $color-fond;
         box-shadow: 0px 0px 10px 5px #ededed;
+        @media screen and (min-width: 980px){
+            width: 30%;
+        }
         &:before{
             content: counter(chiffre);      /*affichage du compteur*/
             background-color: $color-primary;

@@ -6,6 +6,25 @@
     transform: scaleY(1);
   }
 }
+@keyframes load {
+  0% {
+    z-index: 2;
+  }
+  99% {
+    z-index: 2;
+  }
+  100% {
+    z-index: -1;
+  }
+}
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -213,6 +232,11 @@ header img {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 5px;
+}
+@media screen and (min-width: 980px) {
+  .menu__bouton {
+    width: 30%;
+  }
 }
 .menu__bouton:hover::after {
   opacity: 1;

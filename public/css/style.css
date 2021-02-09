@@ -1,4 +1,31 @@
 @charset "UTF-8";
+@keyframes app-progress {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes load {
+  0% {
+    z-index: 2;
+  }
+  99% {
+    z-index: 2;
+  }
+  100% {
+    z-index: -1;
+  }
+}
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -62,6 +89,19 @@ footer a div {
   padding-left: 10px;
 }
 
+.spinner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding-top: 30%;
+  width: 100%;
+  height: 2300px;
+  z-index: -1;
+  background-color: white;
+  text-align: center;
+  font-size: xx-large;
+  color: #9356DC;
+}
 .description {
   width: 100%;
   display: flex;
@@ -120,6 +160,11 @@ footer a div {
   z-index: 1;
   margin: 25px 40px 50px 40px;
 }
+@media screen and (min-width: 980px) {
+  .description__explain a {
+    width: 30%;
+  }
+}
 .description__explain a:hover::after {
   opacity: 1;
 }
@@ -147,10 +192,22 @@ footer a div {
 .Fonctionnement h1 {
   margin-bottom: 30px;
 }
+@media screen and (min-width: 980px) {
+  .Fonctionnement h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
 .Fonctionnement ol {
   counter-reset: chiffre;
   /*initialisation du compeur*/
   padding-left: 0px;
+}
+@media screen and (min-width: 980px) {
+  .Fonctionnement ol {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .Fonctionnement li {
   list-style-type: none;
@@ -163,6 +220,11 @@ footer a div {
   display: flex;
   background-color: #f6f6f6;
   box-shadow: 0px 0px 10px 5px #ededed;
+}
+@media screen and (min-width: 980px) {
+  .Fonctionnement li {
+    width: 30%;
+  }
 }
 .Fonctionnement li:before {
   content: counter(chiffre);
