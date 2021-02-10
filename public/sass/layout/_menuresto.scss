@@ -123,14 +123,14 @@
     }
     & .app-1{
         transform-origin: 50% 0%;
-        //animation: app-progress 1000ms;
+        animation: app-progress 1000ms;
     }
     & .app-2{
         transform-origin: 50% 0%;
-        //animation: app-progress 1000ms 400ms backwards;
+        animation: app-progress 1000ms 400ms backwards;
     }
     & .app-3{
         transform-origin: 50% 0%;
-        //animation: app-progress 1000ms 800ms backwards;
+        animation: app-progress 1000ms 800ms backwards;
     }
 }
