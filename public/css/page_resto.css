@@ -281,12 +281,15 @@ header img {
 }
 .menu .app-1 {
   transform-origin: 50% 0%;
+  animation: app-progress 1000ms;
 }
 .menu .app-2 {
   transform-origin: 50% 0%;
+  animation: app-progress 1000ms 400ms backwards;
 }
 .menu .app-3 {
   transform-origin: 50% 0%;
+  animation: app-progress 1000ms 800ms backwards;
 }
 
 /*# sourceMappingURL=page_resto.css.map */
