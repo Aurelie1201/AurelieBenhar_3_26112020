@@ -357,17 +357,11 @@ footer a div {
   font-size: x-large;
   transition: 1s;
 }
-.restaurant .restaurant__lien figure figcaption i:active {
-  font-weight: 520;
-  background: -webkit-linear-gradient(#9356DC, #FF79DA);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 @media screen and (min-width: 980px) {
   .restaurant .restaurant__lien figure figcaption i:hover {
-    font-weight: 520;
+    font-weight: bold;
     background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }

@@ -41,16 +41,13 @@
     font-size: x-large;
     transition: 1s;
         &:active{
-            font-weight: 520;
-            background: -webkit-linear-gradient($color-primary, $color-secondary);
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+            
         }
         &:hover{
             @media screen and (min-width: 980px){
-                font-weight: 520;
+                font-weight: bold;
                 background: -webkit-linear-gradient($color-primary, $color-secondary);
-                background-clip: text;
+                -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
         }
