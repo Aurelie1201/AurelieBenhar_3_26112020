@@ -9,10 +9,10 @@
 
 @keyframes load{
     0%{
-        z-index: 2;
+        z-index: 3;
     }
     99%{
-        z-index: 2;
+        z-index: 3;
     }
     100%{
         z-index: -1;
@@ -28,14 +28,11 @@
     }
 }
 
-@keyframes couleur-coeur{
+@keyframes app-progress{
     0%{
-
+        opacity: 0;
     }
     100%{
-        background: -webkit-linear-gradient($color-primary, $color-secondary);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: 600;
+        opacity: 1;
     }
 }

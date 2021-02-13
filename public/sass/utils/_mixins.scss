@@ -39,16 +39,14 @@
 
 @mixin coeur {
     font-size: x-large;
-    transition: 1s;
+    z-index: 2;
+    transition: opacity 500ms ;
         &:active{
-            
+            opacity: 0;
         }
         &:hover{
             @media screen and (min-width: 980px){
-                font-weight: bold;
-                background: -webkit-linear-gradient($color-primary, $color-secondary);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                opacity: 0;     
             }
         }
 }
