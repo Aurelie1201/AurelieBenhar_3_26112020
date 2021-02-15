@@ -59,6 +59,11 @@ header {
 header img {
   width: 45%;
 }
+@media screen and (min-width: 980px) {
+  header img {
+    width: 30%;
+  }
+}
 
 footer {
   background-color: #353535;
@@ -108,7 +113,6 @@ footer a div {
   text-align: center;
   font-size: xx-large;
   color: #9356DC;
-  overscroll-behavior: none;
   animation: load 2s;
 }
 @media screen and (min-width: 980px) {
